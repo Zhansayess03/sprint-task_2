@@ -1,0 +1,211 @@
+/* Стили для шапки */
+body{
+  margin: 0;
+  font-family: Arial;
+   background-color: rgb(232,234,237);
+}
+header {
+    background-color: #3b5998;
+    padding: 10px;
+    
+  }
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left:8%;
+}
+.logo a{
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  
+
+}
+.HeaderNav__item{
+  margin-left: 120px;
+  
+
+}
+
+.search-field {
+  background: url(img/icons8-search.svg) left no-repeat; 
+  background-color: rgb(44,72,105);
+  color: white;
+  width: 200px;
+  padding: 7px 35px;
+  margin: 3px;
+  border: none;
+  border-radius: 80px;
+  outline: none;
+}
+
+.search-button {
+  background-color: white;
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -33px;
+}
+
+main{
+  width: 80%;
+  margin-left: 4%;
+}
+.content-container{
+display: flex;
+justify-content: flex-start;
+
+}
+.left-sidebar{
+align-content: flex-end;
+padding-top: 25px;
+width: 20%;
+}
+
+.left-sidebar li, a{
+  text-decoration: none;
+  color: rgb(44,72,105);
+  list-style-type: none;
+  margin: 15px;
+}
+.middle-sidebar{
+  display: flex;
+  flex-direction: column;
+/*  background-color: grey;*/
+  border-radius: 5px;
+  width: 60%;
+  margin-top: 3%;
+}
+.sidebar-header{
+ display: flex;
+ justify-content: space-between;
+ height: 15%;
+ background-color: white;
+ border-radius: 10px 10px 3px 3px;
+}
+#info{
+  display: flex;
+  flex-direction: row;
+}
+#info span{
+  font-size: 14px;
+  padding: 15px;
+  text-align: center;
+  color: rgb(44,72,105);
+}
+#info h5{
+  color:rgb(44,72,105);
+  margin-left: 20px;
+  margin-top: 15px;
+}
+#button{
+  margin: 10px;
+}
+button{
+  background-color:#3b5998;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 25px;
+}
+button:hover{
+  background-color:white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 5px 25px;
+}
+#search{
+ width: 100%;
+ background-color: white;
+ color: rgb(25, 25, 25,0.6);
+ height: 10%;
+ margin-top: 3px;
+ border-radius: 3px;
+}
+#search-field {
+  background: url(img/icons8-search.svg) left no-repeat; 
+  width: 100%;
+  text-align: start;
+  font-size: 14px;
+  padding: 9px 35px;
+  margin: 3px;
+  border: none;
+  border-radius: 80px;
+  outline: none;
+}
+
+#search-button {
+  background-color: white;
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -33px;
+}
+.user-info{
+  display: flex;
+  margin-top: 3px;
+  background-color: white;
+  border-radius: 3px;
+}
+#friend-info li{
+  list-style-type: none;
+  padding-bottom: 5px;
+  font-size: 15px;
+  margin-left: -20px;
+
+}
+#image img {
+  border-radius: 50%;
+  margin: 10px 2px 10px 20px;
+}
+li #name{
+  color: ;
+}
+
+.name{
+  font-weight: bolder;
+  color:  #3b5998;
+
+}
+.message{
+  color:  #3b5998;
+  text-decoration: none;
+}
+.message:hover{
+  text-decoration: underline;
+}
+
+#icon{
+  margin-top: 2%;
+  margin-left: 53%;
+}
+.right-content{
+  display: flex;
+  flex-direction: column;
+}
+.right-sidebar{
+align-content: flex-end;
+padding-top: 5px;
+width: 20%;
+background-color: white;
+height: 15%;
+ margin-top: 3%;
+ margin-left: 20px;
+ border-radius: 5px;
+ font-size: 14px;
+}
+
+.right-sidebar li, a{
+  text-decoration: none;
+  color: rgb(44,72,105);
+  list-style-type: none;
+  margin: 15px 5px;
+  padding: 0;
+  text-align: left;
+
+
+}
+
